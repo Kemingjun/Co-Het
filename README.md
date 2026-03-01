@@ -26,9 +26,8 @@ To intuitively illustrate the collaborative mechanism, we provide a visualizatio
 
 
 
-
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/877bd1af-56ab-4709-a40c-ce9b7888490e" controls autoplay loop muted></video>
+  <video src="https://github.com/user-attachments/assets/f88d164b-0bc9-40b1-9165-d23a9bbb6173" controls autoplay loop muted></video>
 </div>
 
 
