@@ -44,7 +44,7 @@ The animation demonstrates the complete lifecycle of collaborative tasks under s
 Co-HeT employs a specialized encoder-decoder architecture tailored for the heterogeneous and collaborative nature of CHRSP. 
 
 <div align="center">
-  <img src="assets/architecture.png" width="70%" alt="Co-HeT Network Architecture">
+  <img src="assets/architecture.png" width="85%" alt="Co-HeT Network Architecture">
   <p><em>Figure 2: The architecture of the proposed Co-HeT policy network, featuring a dual-stream encoder and a hierarchical decoder.</em></p>
 </div>
 
