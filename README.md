@@ -11,7 +11,7 @@ This repository contains the official implementation and baseline algorithms for
 Heterogeneous multi-robot systems play a critical role in smart manufacturing and logistics, where robots with complementary capabilities collaborate to execute coupled operations. However, the inherent heterogeneity and interdependence substantially increase scheduling complexity, introducing intricate synchronization constraints and cross-schedule dependencies.
 
 <div align="center">
-  <img src="assets/scenario.png" width="800px">
+  <img src="assets/scenario.png" width="60%">
   <p><em>Figure 1: A collaborative scenario in a smart warehouse, where different types of heterogeneous robots (e.g., forklifts, AGVs, mobile manipulators) work together under synchronization constraints.</em></p>
 </div>
 
@@ -24,9 +24,15 @@ To address these challenges, we propose **Co-HeT**, a Transformer-based deep rei
 
 To intuitively illustrate the collaborative mechanism, we provide a visualization of **Co-HeT** solving a medium-scale instance involving **50 coupled tasks**, coordinated by **4 Type-1 robots** and **8 Type-2 robots**.
 
-<div align="center">
-  <video src="assets/collaboration.mp4" width="800" controls autoplay loop muted></video>
+
+
+
+<div align="center" >
+
+[https://github.com/user-attachments/assets/928c993c-489d-4d9c-a9ef-b3bca33df0b6
+](https://github.com/user-attachments/assets/fd20e6b2-3ad5-407a-8b1a-68406f052d38)
 </div>
+
 
 The animation demonstrates the complete lifecycle of collaborative tasks under strict synchronization constraints:
 
@@ -40,7 +46,7 @@ The animation demonstrates the complete lifecycle of collaborative tasks under s
 Co-HeT employs a specialized encoder-decoder architecture tailored for the heterogeneous and collaborative nature of CHRSP. 
 
 <div align="center">
-  <img src="assets/architecture.png" width="850px" alt="Co-HeT Network Architecture">
+  <img src="assets/architecture.png" width="70%" alt="Co-HeT Network Architecture">
   <p><em>Figure 2: The architecture of the proposed Co-HeT policy network, featuring a dual-stream encoder and a hierarchical decoder.</em></p>
 </div>
 
